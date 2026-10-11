@@ -1,9 +1,9 @@
 name: AreaPickaxe
 version: ${project.version}
-main: jp.kamei.areapickaxe.AreaPickaxePlugin
+main: jp.pakupaku.areapickaxe.AreaPickaxePlugin
 api-version: '26.2'
 description: 3x3・5x5の範囲採掘つるはしを追加します
-author: kamei
+author: pakupaku
 
 commands:
   areapickaxe:

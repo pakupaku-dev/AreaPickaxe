@@ -1,4 +1,4 @@
-package jp.kamei.areapickaxe;
+package jp.pakupaku.areapickaxe;
 
 import java.util.ArrayList;
 import java.util.List;

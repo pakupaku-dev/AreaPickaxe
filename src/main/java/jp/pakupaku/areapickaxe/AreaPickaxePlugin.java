@@ -1,4 +1,4 @@
-package jp.kamei.areapickaxe;
+package jp.pakupaku.areapickaxe;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.command.PluginCommand;
