@@ -1,0 +1,14 @@
+mining:
+  # trueの場合、スニークしながら掘ると通常どおり1ブロックだけ採掘します。
+  sneak-for-single-block: true
+
+  # trueの場合、そのつるはしで正しくドロップを得られるブロックだけを範囲採掘します。
+  # 例: 鉄のつるはしでは古代の残骸や黒曜石を範囲採掘しません。
+  require-correct-tool: true
+
+  # 壁の下側を掘ったとき、3x3・5x5の範囲を上へずらして床下の誤採掘を防ぎます。
+  shift-vertical-area-above-floor: true
+
+  # 範囲採掘に巻き込まれた、プレイヤーを支えている足元のブロックを保護します。
+  # そのブロック自体を直接狙って掘った場合は通常どおり採掘できます。
+  protect-block-under-player: true

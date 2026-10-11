@@ -1,0 +1,26 @@
+name: AreaPickaxe
+version: ${project.version}
+main: jp.kamei.areapickaxe.AreaPickaxePlugin
+api-version: '26.2'
+description: 3x3・5x5の範囲採掘つるはしを追加します
+author: kamei
+
+commands:
+  areapickaxe:
+    description: 範囲採掘つるはしの配布・付与・設定再読み込み
+    usage: /areapickaxe <give|apply|reload>
+    aliases: [ap, areapick]
+
+permissions:
+  areapickaxe.use:
+    description: 範囲採掘つるはしを使用できます
+    default: true
+  areapickaxe.give:
+    description: 範囲採掘つるはしを配布できます
+    default: op
+  areapickaxe.apply:
+    description: 手持ちのつるはしに範囲採掘を付与できます
+    default: op
+  areapickaxe.reload:
+    description: AreaPickaxeの設定を再読み込みできます
+    default: op
